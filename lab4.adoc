@@ -344,6 +344,7 @@ fun digitCountInNumber(n: Int, m: Int): Int =
 [cols="1,4,1,4"]
 |===
 ^|Варіант ^|Фрагмент ^|Варіант ^|Фрагмент
+
 ^|1-3
 | `*var* x = 1 +
   *for* (j *in* 7 downTo n) x *= j +
@@ -386,13 +387,12 @@ fun digitCountInNumber(n: Int, m: Int): Int =
 Скласти програму табулювання функції _f(x)_  на відрізку [_a_; _b_] з кроком _h_
 Значення _a_, _b_, _h_ вводити з клавіатури.
 
-image::pic/4_2.png[]
 [cols="1,3,1,3,1,3"]
 |===
 ^|Варіант ^|Функція ^|Варіант ^|Функція ^|Варіант ^|Функція
 
 ^|1
-| \[ y = \frac {tg x}{ln x} \]
+| \[ y = \frac{tg x}{ln x} \]
 ^|2
 | \[y = \sqrt[3]{x}\]
 ^|3
@@ -445,7 +445,7 @@ image::pic/4_2.png[]
 \[e^{-x ^ 2} = 1 - \frac{x^2}{1!} + \frac{x^4}{2!} - ... + (-1)^n \frac{x^{2n}}{n!} (R = \infty) \]
 
 === Варіант 3
-\[ln(x+\sqrt{x^2+1}) = x - \frac{1}{2}\cdot\frac{x^3}{3} + \frac{1}{2}\cdot\frac{3}{4}\cdot\frac{x^5}{5}-\frac{1}{2}\cdot\frac{3}{4}\cdot\frac{5}{6}\cdot\frac{x ^7}{7} + ... (R = 1) \]
+\[ln(x+\sqrt{x^2+1}) = x - \frac{1}{2}\cdot\frac{x^3}{3} + \frac{1}{2}\cdot\frac{3}{4}\cdot\frac{x^5}{5}-\frac{1}{2}\cdot\frac{3}{4}\cdot\frac{5}{6}\cdot\frac{x^7}{7} + ... (R = 1) \]
 
 === Варіант 4
 \[arctg x = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \frac{x^9}{9} - ... (R =1) \]
