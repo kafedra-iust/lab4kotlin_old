@@ -6,9 +6,9 @@ fun main() {
 }
 
 fun readInputData(): Triple<Double, Double, Double> {
-    val a = readLine()!!.toDouble()
-    val b = readLine()!!.toDouble()
-    val h = readLine()!!.toDouble()
+    val a = readln().toDouble()
+    val b = readln().toDouble()
+    val h = readln().toDouble()
     return Triple(a,b,h)
 }
 
